@@ -1,0 +1,25 @@
+{
+  "name": "time-recording-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoboldinho/time-recording-tool.git"
+  },
+  "keywords": [],
+  "author": "hoboldinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoboldinho/time-recording-tool/issues"
+  },
+  "homepage": "https://github.com/hoboldinho/time-recording-tool#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
