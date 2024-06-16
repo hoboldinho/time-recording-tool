@@ -11,8 +11,8 @@ async function GetCalendar() {
     const day = 14;
     const dateTimeNow = auxFunc.TimeDateNow(year, month, day);
 
-    console.log(auxFunc.TimeDateDayStart(year, month, day))
-    console.log(auxFunc.TimeDateDayEnd(year, month, day))
+    console.log(auxFunc.TimeDateDayStart(year, month, day));
+    console.log(auxFunc.TimeDateDayEnd(year, month, day));
 
     const googleCalendar = await auth.GoogleCalendar();
     //console.log(googleCalendar);
